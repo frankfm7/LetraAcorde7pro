@@ -1,7 +1,3 @@
---- src/utils/shareUtils.ts (原始)
-
-
-+++ src/utils/shareUtils.ts (修改后)
 import { Song } from '../types';
 
 /**
