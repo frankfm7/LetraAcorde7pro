@@ -4,7 +4,7 @@ import { X, Plus, Upload, Camera } from 'lucide-react';
 import { Hymnal, Song } from '../types';
 import { useApp } from '../context/AppContext';
 import { useNotification } from './NotificationProvider';
-import { generateSongCode, getNextSongNumber } from '../utils/songCode';
+import { generateSongCode, getNextSongNumber } from "../data/songCode";
 import PhotoExtractor from './PhotoExtractor';
 
 interface AddSongModalProps {
